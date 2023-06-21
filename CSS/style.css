@@ -35,6 +35,12 @@
     justify-content: space-around;
 }
 .apresentacao h1 {
+    font-size: 7rem;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-primaria);
+}
+.apresentacao h2 {
+    margin-top: 10%;
     font-size: 2rem;
     font-family: var(--fonte-primaria);
     text-align: center;
@@ -72,19 +78,19 @@
 .nossos_servicos h3 {
     font-size: 3rem;
     font-family: var(--fonte-primaria);
+    text-align: center;
 }
 .nossos_servicos_conteudo {
     display: flex;
+
     text-align: center;
     margin-top: 10%;
     justify-content: space-between;
 }
-.nossos_servicos h3{
-    text-align: center;
-}
+
 .nossos_servicos_conteudo h4 {
     font-family: var(--fonte-primaria);
-    font-size: 1rem;
+    font-size: 2rem;
 }
 .nossos_servicos_conteudo p {
     font-family: var(--fonte-secundaria);
@@ -99,6 +105,15 @@
 }
 .card2 img {
     width: 30%;
+}
+.card3 a {
+    text-decoration: none;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+}
+.card3 a:hover {
+    color: var(--cor-terciaria);
 }
 .rodape {
     background-color: var(--cor-terciaria);
@@ -125,6 +140,15 @@
     }
     .nossos_servicos_conteudo {
         flex-direction: column;
+    }
+    .card1 {
+        margin-top: 10%;
+    }
+    .card2 {
+        margin-top: 10%;
+    }
+    .card3 {
+        margin-top: 10%;
     }
     .nossos_servicos_conteudo img {
         width: 20%;
